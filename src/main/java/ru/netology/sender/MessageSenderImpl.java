@@ -1,5 +1,6 @@
 package ru.netology.sender;
 
+import java.util.HashMap;
 import java.util.Map;
 
 import ru.netology.entity.Country;
@@ -28,4 +29,6 @@ public class MessageSenderImpl implements MessageSender {
         }
         return localizationService.locale(Country.USA);
     }
+
+
 }
